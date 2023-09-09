@@ -1,0 +1,70 @@
+body {
+    background-color: aliceblue;
+}
+
+.wrap {
+    width: 512px;
+    margin: 24px auto;
+    border: 2px solid darkgrey;
+}
+
+.profile {
+    background-color: white;
+}
+
+.description {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.avatar {
+    padding-top: 24px;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 38px;
+    margin-bottom: 16px;
+}
+
+.tag {
+    font-weight: 400;
+    font-size: 32px;
+    color: darkgray;
+    margin-bottom: 16px;
+    margin-top: 0px;
+}
+
+.location {
+    font-weight: 400;
+    font-size: 36px;
+    color: darkgray;
+    margin-top: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+.stats {
+    display: flex;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.statsItem {
+    text-align: center;
+    width: 170px;
+    background-color: gainsboro;
+}
+
+.label {
+    display: block;
+    font-size: 28px;
+}
+
+.quantity {
+    composes: label;
+
+}

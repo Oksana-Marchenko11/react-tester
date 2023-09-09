@@ -1,0 +1,32 @@
+ul {
+    list-style: none;
+}
+
+.title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.statList {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-left: 0px;
+}
+
+.item {
+    flex-basis: auto;
+    flex-grow: 1;
+}
+
+.label {
+    font-weight: 400;
+    font-size: 28px;
+    display: block;
+}
+
+.percentage {
+    font-weight: 500;
+    font-size: 28px;
+}
